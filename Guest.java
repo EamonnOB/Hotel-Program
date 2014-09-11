@@ -75,6 +75,14 @@ public class Guest {
 		return name;	
 	}
 	
+	public String getArrivalDate() {
+		return arrivalDate;	
+	}
+	
+	public String getDepartureDate() {
+		return departureDate;	
+	}
+	
 	private int getNumberOfNights() {
 		int numOfNights = 0;
 		int month1=0, month2=0;
